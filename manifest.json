@@ -1,0 +1,13 @@
+{
+  "name": "Kinopoisk it!",
+  "description": "This extension searches on kinopoisk via right-click menu",
+  "icons": {"16": "kp16.png", "48": "kp48.png", "128": "kp128.png"},
+  "version": "0.1",
+
+  "permissions": ["contextMenus"],
+
+  "background": {
+    "scripts": ["main.js"]},
+
+    "manifest_version": 2
+}
